@@ -1,0 +1,57 @@
+Learning again:
+
+Do you want go to root user:
+su -
+
+user mod command:
+usermod -aG sudo fer
+Sign out and in again
+
+Command to know groups:
+groups
+
+
+for sway sddm is not working:
+
+Install sddm:
+apt install sddm
+
+dpkg-reconfigure sddm
+
+
+
+I3 is another windows manager for x11
+Sway is the version for wayland
+
+how to find what display manager you are using
+/etc/X11/default-display-manager
+
+
+
+Emergency exit:¨
+pkill sway
+pkill waybar
+
+
+
+each user has a different home if.
+
+
+install fonts
+~/.local/share/fonts
+
+
+To see space on disk
+df -h
+
+How use Git
+Locally and Git hub
+
+git init
+git status
+to add everything
+git add.
+
+
+git commit -m
+git log
