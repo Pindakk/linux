@@ -1,1 +1,4 @@
 Git testing the gui
+
+Git gui works as the command line?
+seems like I have to comming before be able to push
