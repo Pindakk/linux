@@ -1,0 +1,22 @@
+Configuration:
+
+
+install fonts
+~/.local/share/fonts
+
+reset fonts command:
+fc-chache
+
+
+
+Sync between dolphin and google drive:
+
+sudo apt install kio-gdrive
+
+
+change your prompt
+https://robotmoon.com/bash-prompt-generator/
+
+
+
+install tldr like man

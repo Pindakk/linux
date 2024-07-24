@@ -1,0 +1,14 @@
+git:
+
+
+How use Git
+Locally and Git hub
+
+git init
+git status
+to add everything
+git add.
+
+
+git commit -m
+git log

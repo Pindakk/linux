@@ -61,3 +61,32 @@ git log
 testing how to push it
 
 testit kate
+
+
+
+
+Good software for Linux
+
+Piper: Mouse configuration
+
+
+
+For Xfce:
+You need to install blueman
+$ sudo apt install bluez blueman
+
+If I want to find package:
+sudo nala search XD
+
+
+appimage you have to make them executable
+
+
+
+MAJ:MIN
+Tell how the disk are connected to the computer for example SATA or "motherboard"
+
+
+Software to download
+notepadpp (similar to notepad ++)
+

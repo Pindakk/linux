@@ -1,0 +1,3 @@
+files:
+
+appimage you have to make them executable to be able to work with them.

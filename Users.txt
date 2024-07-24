@@ -1,0 +1,19 @@
+Root user:	
+
+su -
+
+User mod:
+
+usermod -aG sudo [user]
+(restart)
+
+
+To know the groups that you have:
+
+groups
+
+
+
+
+
+\\\\\\\\\\\\\

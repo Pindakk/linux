@@ -1,0 +1,19 @@
+Sway sddm is not working:
+
+Install sddm:
+
+apt install sddm
+
+dpkg-reconfigure sddm
+
+
+I3 a diferent windows manager for x11
+Sway is the version for wayland
+
+
+I3 = Sway
+
+
+how to find what display manager you are using:
+
+/etc/[x11]/default-display-manager

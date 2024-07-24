@@ -1,0 +1,7 @@
+Facts:
+
+each user has a differente home directory
+
+MAJ:MIN
+Tell how the disk are connected to the computer for example SATA
+

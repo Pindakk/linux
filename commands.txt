@@ -1,0 +1,11 @@
+Interesting command to remember:
+
+
+pkill [application]
+
+
+See space on disk:
+
+df -h
+
+

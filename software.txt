@@ -1,0 +1,8 @@
+Software:
+
+Piper: mouse configuration
+
+notepadqq: notepadd
+
+better version of cat: bat
+ 
