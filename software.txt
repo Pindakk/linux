@@ -6,3 +6,4 @@ notepadqq: notepadd
 
 better version of cat: bat
  
+xPad : Stickers
