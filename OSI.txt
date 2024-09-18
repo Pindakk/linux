@@ -1,13 +1,16 @@
 OSI model
 
 
-Please do not Throw Pizza Away
+Please 		do 			not 		Throw 		Pizza 			Away
 
+Physical 	Data Link	Network		Transport	Presentation	Application
 
+Do 		some 		People 		Fear 		Birthdays
 
-
+Data	Segments	Packets		Frames		Bits
 
 Layer 1 Physical  		Bits
+	- Devices view networks from a physical topology perpective
 	- 
 
 Layer 2 Data Link 		Frames
