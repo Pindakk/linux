@@ -27,7 +27,3 @@ install tldr like man
 Gaming configuration:
 
 curl -fsSL https://christitus.com/linux | sh
-
-
-
-testing with Seb

@@ -7,3 +7,12 @@ notepadqq: notepadd
 better version of cat: bat
  
 xPad : Stickers
+
+
+Tabliss: Firefox
+
+
+Sensors: xsensors to see the temperature of the computer (Optional)
+
+
+
