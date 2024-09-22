@@ -1,0 +1,124 @@
+Networking Services:
+
+
+Change directory into mydir1, and then copy "lines" into the current directory. 
+
+Copy lines into mydir1: Assuming you are already in mydir1 after the first command:
+
+bash
+
+    cp ../lines .
+
+The first command changes the current directory to mydir1, 
+and the second command copies the lines file from its parent directory (demo) into the current directory (mydir1). 
+The . at the end of the cp command means "current directory."
+
+
+
+CAT = concatinate
+
+cat file1 file2 file3
+
+cat file1 file2 > newfile
+
+cat file1 file2 >> existing file
+
+
+Still in mydir1, concatinate info2 and lines and file1 from test1, saving the output as "joined2". 
+
+cat info2 lines ../test1/file1 > joined2
+
+
+
+
+    Create a new directory called etccopy in /home/demo:
+
+    bash
+
+mkdir /home/demo/etccopy
+
+Copy all files from /etc that begin with "u" and end with ".conf" to the etccopy directory without copying subdirectories:
+
+bash
+
+cp /etc/u*.conf /home/demo/etccopy/
+
+Explanation:
+
+mkdir /home/demo/etccopy: Creates a directory named etccopy in /home/demo.
+cp /etc/u*.conf /home/demo/etccopy/: This command copies all files in /etc that match the pattern u*.conf (start with "u" and end with ".conf") into the new directory. 
+The wildcard * matches any characters in between.
+
+
+ls -d 
+    ls -d * | grep -E '[0-9]+' > /home/demo/digit
+
+Explanation:
+
+    cd /etc: Changes the working directory to /etc.
+    ls -d *: Lists all files and directories in the current directory (/etc) without descending into subdirectories (-d prevents recursion).
+    grep -E '[0-9]+': Filters the list to include only those names that contain one or more digits.
+	
+	
+	    > /home/demo/digit: Redirects the output to a file called digit in /home/demo.
+
+This will save the list in digit without any /etc/ prefixes.
+
+Let me know if you need further help!
+
+
+ls -d /etc/* | grep -E '/etc/.*[0-9]+' > /home/demo/digit2  explain what this those
+ChatGPT said:
+ChatGPT
+
+Let's break down the command ls -d /etc/* | grep -E '/etc/.*[0-9]+' > /home/demo/digit2 step by step:
+
+    ls -d /etc/*:
+        ls: This command lists the contents of a directory.
+        -d: This option tells ls to list only the names of the directories themselves, not their contents. This prevents recursion into subdirectories.
+        /etc/*: The wildcard * matches all files and directories in the /etc directory. This means that it will list every item located directly under /etc.
+
+    | (pipe):
+        The pipe (|) takes the output from the command on its left (ls -d /etc/*) and uses it as input for the command on its right (grep -E '/etc/.*[0-9]+').
+
+    grep -E '/etc/.*[0-9]+':
+        grep: This command is used for searching text using patterns.
+        -E: This option enables extended regular expressions, allowing for more complex pattern matching.
+        '/etc/.*[0-9]+': This pattern is being searched for in the input:
+            '/etc/': Matches the prefix /etc/, ensuring that only paths starting with this string are considered.
+            '.*': Matches zero or more characters following the /etc/ prefix, effectively allowing for any file or directory name.
+            [0-9]+: Matches one or more digits (0 through 9) anywhere in the name.
+
+    > /home/demo/digit2:
+        The > operator redirects the output from the grep command to a file.
+        /home/demo/digit2: This specifies the path where the output will be saved. If the file digit2 already exists, it will be overwritten; if it does not exist, it will be created.
+
+Summary:
+
+The entire command does the following:
+
+    Lists all files and directories directly under /etc.
+    Filters this list to only include those that contain one or more digits in their names, ensuring that each entry includes the /etc/ prefix.
+    Saves the filtered list to a file called digit2 in the /home/demo directory.
+
+This command is useful for quickly identifying configuration files or directories in /etc that may have version numbers or other numerical identifiers in their names. Let me know if you have any more questions!
+
+
+
+head -n 5000 words | tail -n 1
+
+Explanation:
+
+    head -n 5000 words: This command outputs the first 5000 lines of the file words.
+    | (pipe): This passes the output of the head command to the next command.
+    tail -n 1: This command takes the last line from the output of the previous command, which will be line 5000.
+
+Result:
+
+Running this command will display the word that appears on line 5000 of the file words. If you're using a case-sensitive search, just be aware that the result will reflect the exact casing used in the file.
+
+Let me know if you have any questions!
+
+
+
+cat you do not have to always create a new file!

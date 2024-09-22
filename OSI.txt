@@ -11,7 +11,10 @@ Data	Segments	Packets		Frames		Bits
 
 Layer 1 Physical  		Bits
 	- Devices view networks from a physical topology perpective
-	- 
+	- Asynchronous
+	- Synchornous
+	
+	
 
 Layer 2 Data Link 		Frames
 
