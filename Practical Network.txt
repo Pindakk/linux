@@ -1,0 +1,4 @@
+Practical network:
+
+
+CIDR: CIDR means Classless Inter-Domain Routing. It uses a hierarchical addressing scheme based on VLSM
