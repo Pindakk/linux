@@ -2,3 +2,23 @@ Practical network:
 
 
 CIDR: CIDR means Classless Inter-Domain Routing. It uses a hierarchical addressing scheme based on VLSM
+
+
+30-bit mask
+
+
+192.168.0.0/30: could be used to address the point to point serial link between two sites.
+
+Route flapping: interfaces rapidly alternates between up and down states
+
+NAT: Network Address Translation!
+How works: Internal host with a private address transmit a packet to a destination in the internet,
+The pack is received by NAT-enabled device (router).
+The it replaces the inside IP address with a globally unique IP address. When an outside sends a response,
+The NAT-enabled device receives it, checks the correspondent table of network address tranlations and replaces the destination address with the original internal source.
+
+Can ocurr dynamically or statically
+
+IP helper addresses: 
+IP helper addresses can help router to accept a broadcast request for a UDP service and then forward to a specific IP address.
+
