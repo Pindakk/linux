@@ -122,3 +122,11 @@ Let me know if you have any questions!
 
 
 cat you do not have to always create a new file!
+
+
+
+FIND COMMAND-
+Use the find command to locate all files which start with an "a" and end in a ".conf" which exist somewhere in /usr/share. Save this list to a file '/home/demo/alist'. Make sure that the first parameter of find is "/usr/share". 
+Run the command as user "demo" and do not worry about any permission error messages.
+
+sudo -u demo find /usr/share -type f -name 'a*.conf' > /home/demo/alist
